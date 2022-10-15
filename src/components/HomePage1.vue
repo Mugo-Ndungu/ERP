@@ -23,38 +23,38 @@
                             <h6>12</h6>
                             <p class="menu-text">Applications</p>
                         </div>
-                        <div class="col-md-8 grad">
+                        <div class="col-md-7 grad">
                             <p class="grad-p1">This Months Payment</p>
                             <p class="grad-p2">SSP 4000.00</p>
                         </div>
                     </div>
+                    <h3 class="service-head">Services</h3>
                     <div class="row">
-                        <h3 class="service-head">Services</h3>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/004-construction.png" alt="">
                             <h6 class="service-text">Start to Build <br> Application</h6>
                         </div>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/003-licensing.png" alt="">
                             <h6 class="service-text">Licenses and Permits</h6>
 
                         </div>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/005-inspection.png" alt="">
                             <h6 class="service-text">Inspections</h6>
 
                         </div>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/006-insurance.png" alt="">
                             <h6 class="service-text">Insurance</h6>
 
                         </div>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/002-coding.png" alt="">
                             <h6 class="service-text">Annual Service fee</h6>
 
                         </div>
-                        <div class="col-md-2 services">
+                        <div class="col-md-1.5 services">
                             <img src="./icons/001-quote.png" alt="">
                             <h6 class="service-text">Get Quotation</h6>
 
@@ -122,7 +122,8 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&display=swap');
-.table{
+
+.table {
     border-color: #000000;
 }
 

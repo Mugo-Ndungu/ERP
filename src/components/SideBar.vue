@@ -9,11 +9,11 @@
             <h3 class="hello"><b>Hello</b></h3>
             <h2 class="user_name"><b>Deng Chan</b></h2>
             <div class="sidenav">
-                <a href="/">
+                <router-link to="/">
                     <i class="fa fa-table-columns"></i>
                     Dashboard
-                </a>
-                <a href="#" class="active">
+                </router-link>
+                <a href="/Payments" class="active">
                     <i class="lar la-credit-card"></i>
                     Payments
                 </a>
@@ -23,8 +23,8 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-container">
-                    <a href="#">Applicants</a>
-                    <a href="#">Properties</a>
+                    <a href="/Applicant">Applicants</a>
+                    <a href="/DescriptionFacility">Properties</a>
                 </div>
                 <button class="dropdown-btn">
                     <i class="lar la-credit-card"></i>
@@ -34,11 +34,8 @@
                 <div class="dropdown-container">
                     <a href="#">Start to build</a>
                     <a href="#">Apply for inspection</a>
-                    <a href="#">Insurance</a>
-                    <a href="#">Annual Service fee</a>
-                    <a href="#">Quotations</a>
-                    <a href="#">Fire Brigades Start to build Approval</a>
-                    <a href="#">Fire Brigades Inspection Approvals</a>
+                    <a href="BuildApproval">Fire Brigades Start to build Approval</a>
+                    <a href="InspectionApproval">Fire Brigades Inspection Approvals</a>
                 </div>
                 <button class="dropdown-btn">
                     <i class="lar la-credit-card"></i>
@@ -46,13 +43,13 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-container">
-                    <a href="#">Inspection</a>
+                    <a href="InspectionApproval">Inspection</a>
                     <a href="#">Occupancy</a>
-                    <a href="#">Insurance</a>
-                    <a href="#">Annual Service fee</a>
+                    <a href="Insurance">Insurance</a>
+                    <a href="/PaymentServiceFee">Annual Service fee</a>
                     <a href="#">Quotations</a>
                 </div>
-                <a href="#">
+                <a href="Insurance">
                     <i class="lar la-credit-card"></i>
                     Insurance
                 </a>
@@ -62,15 +59,15 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-container">
-                    <a href="#">Service fee</a>
-                    <a href="#">Demand Note</a>
-                    <a href="#">Form 15</a>
+                    <a href="/Payments">Service fee</a>
+                    <a href="/DemandNote">Demand Note</a>
+                    <a href="/Form15">Form 15</a>
                 </div>
-                <a href="#">
+                <a href="/Fine">
                     <i class="lar la-credit-card"></i>
                     Fines and Violations
                 </a>
-                <a href="#">
+                <a href="/Reports">
                     <i class="lar la-credit-card"></i>
                     Reports
                 </a>

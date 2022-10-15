@@ -30,15 +30,17 @@ import Fine from './components/Fine.vue'
     <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
-      <SideBar/>
+      <SideBar />
     </div>
   </header>
 
   <main>
-    <HomePage1 />
+    <router-view />
   </main>
 </template>
-
+<script>
+console.log('Clicked')
+</script>
 <style scoped>
 header {
   line-height: 1.5;
