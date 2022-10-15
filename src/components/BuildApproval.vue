@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <button type="button" class="apply">Apply</button>
+                            <a href="/NewBuildingApproval" class="apply btn btn-primary">Apply</a>
                         </div>
                     </div>
                 </div>

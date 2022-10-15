@@ -113,27 +113,27 @@ const routes = [
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/NewDemandNote',
+    name: "NewDemandNote",
+    component: () => import('./components/NewDemandNote.vue')
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/ApplicantIndividual',
+    name: "ApplicantIndividual",
+    component: () => import('./components/ApplicantIndividual.vue')
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/NewBuildingApproval',
+    name: "NewBuildingApproval",
+    component: () => import('./components/NewBuildingApproval.vue')
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/NewInspectionApproval',
+    name: "NewInspectionApproval",
+    component: () => import('./components/NewInspectionApproval.vue')
   }
   ,
   {

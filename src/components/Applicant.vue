@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <button type="button" class="apply">Add</button>
+                            <a href="/ApplicantIndividual" class="apply btn btn-primary">Add</a>
                         </div>
                     </div>
                 </div>

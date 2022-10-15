@@ -69,7 +69,7 @@
                         <i class="lar la-credit-card"></i>Billing</a>
                     <div class="dropdown-menu" x-placement="bottom-start"
                         style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
-                        <a href="/Payments" class="dropdown-item" style="color: #000000;">Service fee</a>
+                        <a href="/PaymentServiceFee" class="dropdown-item" style="color: #000000;">Service fee</a>
                         <a href="/DemandNote" class="dropdown-item" style="color: #000000;">Demand Note</a>
                         <a href="/Form15" class="dropdown-item" style="color: #000000;">Form 15</a>
                     </div>

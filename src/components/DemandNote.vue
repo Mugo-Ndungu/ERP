@@ -23,7 +23,7 @@
                         <div class="col-md-6">
                             <button type="button" class="apply-light">
                                 <span class="fa fa-filter"> </span></button>
-                            <button type="button" class="apply">New</button>
+                            <a href="/NewDemandNote" class="apply btn btn-primary">New</a>
                         </div>
                     </div>
                 </div>
