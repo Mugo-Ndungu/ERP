@@ -1,4 +1,4 @@
-import VueRouter from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router'
 import { createApp } from 'vue'
 import App from './App.vue'
 
@@ -6,20 +6,6 @@ import './assets/main.css'
 
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
-
-const routes = [
-  { path: '/', component: HomePage1 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-  { path: '/Form15', component: Form15 },
-];
 
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function () {
@@ -35,3 +21,24 @@ for (i = 0; i < dropdown.length; i++) {
 
 createApp(App).mount('#app')
 
+
+const routes = [
+  {
+    path: '/',
+    name: "Home",
+    component: () => import('./components/HomePage1.vue')
+  }
+  ,
+  {
+    path: '/users',
+    name: "Users",
+    component: () => import('./components/Users.vue')
+  }
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
+export default router

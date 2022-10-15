@@ -35,7 +35,7 @@ import Fine from './components/Fine.vue'
   </header>
 
   <main>
-    <Fine />
+    <HomePage1 />
   </main>
 </template>
 

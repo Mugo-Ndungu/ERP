@@ -9,7 +9,7 @@
             <h3 class="hello"><b>Hello</b></h3>
             <h2 class="user_name"><b>Deng Chan</b></h2>
             <div class="sidenav">
-                <a href="#">
+                <a href="/">
                     <i class="fa fa-table-columns"></i>
                     Dashboard
                 </a>
