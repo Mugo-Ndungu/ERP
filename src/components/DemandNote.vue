@@ -106,7 +106,7 @@
 .apply {
     width: 181px;
     height: 31px;
-    left: 570px;
+    left: 380px;
     border: 0;
     color: #CFEBFF;
 
@@ -118,7 +118,7 @@
 .apply-light {
     width: 38px;
     height: 31px;
-    left: 540px;
+    left: 310px;
     border: 0;
     color: #000000;
     background: #FFFFFF;

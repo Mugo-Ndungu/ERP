@@ -9,73 +9,86 @@
             <h3 class="hello"><b>Hello</b></h3>
             <h2 class="user_name"><b>Deng Chan</b></h2>
             <div class="sidenav">
-                <router-link to="/">
-                    <i class="fa fa-table-columns"></i>
-                    Dashboard
-                </router-link>
-                <a href="/Payments" class="active">
-                    <i class="lar la-credit-card"></i>
-                    Payments
-                </a>
-                <button class="dropdown-btn">
-                    <i class="lar la-credit-card"></i>
-                    Onborading
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="/Applicant">Applicants</a>
-                    <a href="/DescriptionFacility">Properties</a>
-                </div>
-                <button class="dropdown-btn">
-                    <i class="lar la-credit-card"></i>
-                    Applications
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="#">Start to build</a>
-                    <a href="#">Apply for inspection</a>
-                    <a href="BuildApproval">Fire Brigades Start to build Approval</a>
-                    <a href="InspectionApproval">Fire Brigades Inspection Approvals</a>
-                </div>
-                <button class="dropdown-btn">
-                    <i class="lar la-credit-card"></i>
-                    Permit, Certificate, Licences
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="InspectionApproval">Inspection</a>
-                    <a href="#">Occupancy</a>
-                    <a href="Insurance">Insurance</a>
-                    <a href="/PaymentServiceFee">Annual Service fee</a>
-                    <a href="#">Quotations</a>
-                </div>
-                <a href="Insurance">
-                    <i class="lar la-credit-card"></i>
-                    Insurance
-                </a>
-                <button class="dropdown-btn">
-                    <i class="lar la-credit-card"></i>
-                    Billing
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-container">
-                    <a href="/Payments">Service fee</a>
-                    <a href="/DemandNote">Demand Note</a>
-                    <a href="/Form15">Form 15</a>
-                </div>
-                <a href="/Fine">
-                    <i class="lar la-credit-card"></i>
-                    Fines and Violations
-                </a>
-                <a href="/Reports">
-                    <i class="lar la-credit-card"></i>
-                    Reports
-                </a>
+                <li>
+                    <router-link to="/">
+                        <i class="fa fa-table-columns"></i>
+                        Dashboard
+                    </router-link>
+                </li>
+                <li> <a href="/Payments" class="active">
+                        <i class="lar la-credit-card"></i>
+                        Payments
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="lar la-credit-card"></i>Onborading</a>
+                    <div class="dropdown-menu" x-placement="bottom-start"
+                        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                        <a href="/Applicant" class="dropdown-item" style="color: #000000;">Applicants</a>
+                        <a href="/DescriptionFacility" class="dropdown-item" style="color: #000000;">Properties</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="lar la-credit-card"></i>Applications</a>
+                    <div class="dropdown-menu" x-placement="bottom-start"
+                        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                        <a href="/BuildApproval" class="dropdown-item" style="color: #000000;">Fire Brigades Start to
+                            build Approval</a>
+                        <a href="/InspectionApproval" class="dropdown-item" style="color: #000000;">Fire Brigades
+                            Inspection Approvals</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="lar la-credit-card"></i>Permit, Certificate, Licences</a>
+                    <div class="dropdown-menu" x-placement="bottom-start"
+                        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
 
-                <a href="#">
-                    <i class="lar la-credit-card"></i>
-                    Statistics
-                </a>
+                        <a href="InspectionApproval" class="dropdown-item" style="color: #000000;">Inspection</a>
+                        <a href="#" class="dropdown-item" style="color: #000000;">Occupancy</a>
+                        <a href="Insurance" class="dropdown-item" style="color: #000000;">Insurance</a>
+                        <a href="/PaymentServiceFee" class="dropdown-item" style="color: #000000;">Annual Service
+                            fee</a>
+                        <a href="#" class="dropdown-item" style="color: #000000;">Quotations</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="Insurance">
+                        <i class="lar la-credit-card"></i>
+                        Insurance
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="lar la-credit-card"></i>Billing</a>
+                    <div class="dropdown-menu" x-placement="bottom-start"
+                        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                        <a href="/Payments" class="dropdown-item" style="color: #000000;">Service fee</a>
+                        <a href="/DemandNote" class="dropdown-item" style="color: #000000;">Demand Note</a>
+                        <a href="/Form15" class="dropdown-item" style="color: #000000;">Form 15</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Fine">
+                        <i class="lar la-credit-card"></i>
+                        Fines and Violations
+                    </a>
+                    <a href="/Reports">
+                        <i class="lar la-credit-card"></i>
+                        Reports
+                    </a>
+
+                    <a href="#">
+                        <i class="lar la-credit-card"></i>
+                        Statistics
+                    </a>
+                </li>
             </div>
 
             <a class="settnings" href="#">
@@ -89,6 +102,14 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+ul.a {
+    list-style-type: none;
+}
+
+.dropdown-item {
+    color: black;
+}
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
@@ -105,6 +126,10 @@
     text-align: left;
     cursor: pointer;
     outline: none;
+}
+
+.sidenav a .dropdown-menu .show {
+    color: black;
 }
 
 /* On mouse-over */

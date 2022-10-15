@@ -464,7 +464,7 @@
 .apply {
     width: 181px;
     height: 31px;
-    left: 570px;
+    left: 380px;
     border: 0;
     color: #CFEBFF;
 
