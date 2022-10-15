@@ -19,9 +19,6 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 
-createApp(App).mount('#app')
-
-
 const routes = [
   {
     path: '/',
@@ -42,3 +39,7 @@ const router = createRouter({
 })
 
 export default router
+
+const app = new Vue({
+  router
+}).$mount('#app')
