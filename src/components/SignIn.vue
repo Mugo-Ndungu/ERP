@@ -39,8 +39,8 @@
                             <input type="checkbox" class="form-check-input" id="rememberPassword">
                             <label class="form-check-label" for="rememberPassword">Remember Password</label>
                         </div>
-                        <button type="submit" class="btn submit btn-primary btn-block">Submit</button>
-                        <p class="form-text already">Don't have an account? <a href="">Contact Us</a> </p>
+                        <a href="/HomePage1" class="btn submit btn-primary btn-block">Submit</a>
+                        <p class="form-text already">Don't have an account? <a href="/HomePage1">Contact Us</a> </p>
                     </form>
                 </div>
             </div>
@@ -147,7 +147,7 @@ form {
 
 .form-check label {
     margin-bottom: 30px;
-    width: 137px;
+    width: 337px;
     height: 18px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -167,7 +167,7 @@ form {
 }
 
 label {
-    width: 97px;
+    width: 397px;
     height: 18px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -299,7 +299,7 @@ label {
 
 .head_title {
     position: absolute;
-    width: 293px;
+    width: 393px;
     height: 17px;
     left: 83px;
     top: 203px;
@@ -319,6 +319,7 @@ label {
 
 .main {
     position: relative;
+    left: -100px;
     width: 1512px;
     height: 982px;
     background: #F5FBFF;

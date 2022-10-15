@@ -51,7 +51,7 @@
                             <label class="form-check-label" for="rememberPassword">Remember Password</label>
                         </div>
                         <button type="submit" class="btn submit btn-primary btn-block">Submit</button>
-                        <p class="form-text already">Already have an account? <a href="">Sign In</a> </p>
+                        <p class="form-text already">Already have an account? <a href="/SignIn">Sign In</a> </p>
                     </form>
                 </div>
                 <div class="separator">
@@ -149,7 +149,7 @@ small {
 
 .form_title {
     position: absolute;
-    width: 122px;
+    width: 222px;
     height: 18px;
     left: 850px;
     top: 174px;
@@ -181,7 +181,7 @@ form {
 
 .form-check label {
     margin-bottom: 30px;
-    width: 137px;
+    width: 337px;
     height: 18px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -201,7 +201,7 @@ form {
 }
 
 label {
-    width: 97px;
+    width: 297px;
     height: 18px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -356,7 +356,9 @@ label {
     position: relative;
     width: 1512px;
     height: 982px;
+    left: -100px;
     background: #F5FBFF;
+    box-sizing: border-box;
 }
 
 .rectangle1 {

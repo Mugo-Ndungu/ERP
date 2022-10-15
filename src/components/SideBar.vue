@@ -10,7 +10,7 @@
             <h2 class="user_name"><b>Deng Chan</b></h2>
             <div class="sidenav">
                 <li>
-                    <router-link to="/">
+                    <router-link to="/HomePage1">
                         <i class="fa fa-table-columns"></i>
                         Dashboard
                     </router-link>
@@ -76,16 +76,16 @@
                 </li>
                 <li>
                     <a href="/Fine">
-                        <i class="lar la-credit-card"></i>
+                        <i class="fa-duotone fa-file-exclamation"></i>
                         Fines and Violations
                     </a>
                     <a href="/Reports">
-                        <i class="lar la-credit-card"></i>
+                        <i class="fa fa-file"></i> 
                         Reports
                     </a>
 
                     <a href="#">
-                        <i class="lar la-credit-card"></i>
+                        <i class="fa fa-desktop"></i>
                         Statistics
                     </a>
                 </li>

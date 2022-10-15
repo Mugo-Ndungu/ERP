@@ -47,8 +47,8 @@ for (i = 0; i < dropdown.length; i++) {
 
 const routes = [
   {
-    path: '/',
-    name: "Home",
+    path: '/HomePage1',
+    name: "HomePage1",
     component: () => import('./components/HomePage1.vue')
   }
   ,
@@ -137,21 +137,21 @@ const routes = [
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/Fine',
+    name: "Fine",
+    component: () => import('./components/Fine.vue')
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/',
+    name: "SignUp",
+    component: () => import('./components/SignUp.vue')
   }
   ,
   {
-    path: '/BuildApproval',
-    name: "BuildApproval",
-    component: () => import('./components/BuildApproval.vue')
+    path: '/SignIn',
+    name: "SignIn",
+    component: () => import('./components/SignIn.vue')
   }
 ]
 
