@@ -76,7 +76,7 @@
                 </li>
                 <li>
                     <a href="/Fine">
-                        <i class="fa-duotone fa-file-exclamation"></i>
+                        <i class="lar la-folder"></i>
                         Fines and Violations
                     </a>
                     <a href="/Reports">
